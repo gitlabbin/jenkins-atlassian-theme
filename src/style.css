@@ -53,6 +53,18 @@ a:hover, a:active {
 }
 
 /* header panel */
+#page-header {
+    background: none repeat scroll 0 0 #041E42;
+    background-color: #041E42;
+}
+
+#page-header td#login-field span a {
+    background: none;
+}
+
+#page-header .logo {
+    cursor: pointer;
+}
 
 #header {
     background: none repeat scroll 0 0 #041E42;
@@ -253,7 +265,7 @@ div.pane-header, div.pane-header a:link, div.pane-header a:visited {
     border-bottom-width: 1px;
     box-shadow: 0 1px 0 #e7f0f8;
 }
-
+/*
 #side-panel .task a {
     text-decoration: none;
     font-size: 14px;
@@ -269,6 +281,7 @@ div.pane-header, div.pane-header a:link, div.pane-header a:visited {
     background-color: #e6e6e6;
     text-decoration: none;
 }
+*/
 
 table.progress-bar.red td.progress-bar-done {
     background-color: #3465a4;
