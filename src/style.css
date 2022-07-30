@@ -1,3 +1,7 @@
+:root {
+    --pre-color: #b5c4d0 !important;
+}
+
 table, form, input, td, th, p, textarea, select {
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -429,6 +433,54 @@ td.progress-bar-done {
     color:#707070;
 }
 
+.timestamp {
+    background-color:#393939;
+    color:#b5c4d0;
+    padding: 0;
+}
+
+pre {
+    color: #b5c4d0 !important;
+}
+.pipeline-node-3 {
+    background-color:#393939;
+    color:#b5c4d0;
+    padding: 0;
+}
+
+.pipeline-node-5 {
+    background-color:#393939;
+    color:#b5c4d0;
+    padding: 0;
+}
+
+.pipeline-node-12 {
+    background-color:#393939;
+    color:#b5c4d0;
+    padding: 0;
+}
+
+.pipeline-node-17 {
+    background-color:#393939;
+    color:#b5c4d0;
+    padding: 0;
+}
+
+.pipeline-node-22 {
+    background-color:#393939;
+    color:#b5c4d0;
+    padding: 0;
+}
+
+.pipeline-new-node {
+    background-color:#393939;
+    color:#707070;
+    padding: 0;
+}
+
+.model-link model-link--float {
+    color: #3b73af;
+}
 /* Console output */
 .console-output {
     font-size:14px;
