@@ -56,6 +56,16 @@ a:hover, a:active {
     float: right;
 }
 
+.page-header {
+    display: block;
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    background-color: #041E42;
+}
+
 /* header panel */
 #page-header {
     background: none repeat scroll 0 0 #041E42;
