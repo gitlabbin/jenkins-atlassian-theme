@@ -1,5 +1,8 @@
 :root {
     --pre-color: #b5c4d0 !important;
+    --pre-background: #000;
+    --console-background: #393939;
+    --console-background-dark: #000;
 }
 
 table, form, input, td, th, p, textarea, select {
@@ -444,46 +447,47 @@ td.progress-bar-done {
 }
 
 .timestamp {
-    background-color:#393939;
+    background-color: var(--console-background-dark);
     color:#b5c4d0;
     padding: 0;
 }
 
 pre {
     color: #b5c4d0 !important;
+    background-color: #000;
 }
 .pipeline-node-3 {
-    background-color:#393939;
+    background-color: var(--console-background-dark);
     color:#b5c4d0;
     padding: 0;
 }
 
 .pipeline-node-5 {
-    background-color:#393939;
+    background-color: var(--console-background-dark);
     color:#b5c4d0;
     padding: 0;
 }
 
 .pipeline-node-12 {
-    background-color:#393939;
+    background-color: var(--console-background-dark);
     color:#b5c4d0;
     padding: 0;
 }
 
 .pipeline-node-17 {
-    background-color:#393939;
+    background-color: var(--console-background-dark);
     color:#b5c4d0;
     padding: 0;
 }
 
 .pipeline-node-22 {
-    background-color:#393939;
+    background-color: var(--console-background-dark);
     color:#b5c4d0;
     padding: 0;
 }
 
 .pipeline-new-node {
-    background-color:#393939;
+    background-color: var(--console-background-dark);
     color:#707070;
     padding: 0;
 }
@@ -494,7 +498,7 @@ pre {
 /* Console output */
 .console-output {
     font-size:14px;
-    background-color:#393939;
+    background-color: var(--console-background-dark);
     color:#b5c4d0;
     padding:20px 20px 30px;
     border-radius:3px;
